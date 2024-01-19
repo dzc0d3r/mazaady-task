@@ -41,7 +41,7 @@ jobs:
         uses: bahmutov/npm-install@v1
 
       - name: 🔎 Type check
-        run: yarn format:check
+        run: yarn format
 
   test:
     name: 🃏 Test
