@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`QRCard Component renders QRCard component correctly 1`] = `
+<div
+  className="h-fit w-full bg-white rounded-2xl p-5 flex flex-col max-w-full md:max-w-none mx-auto"
+>
+  <div
+    className="flex flex-row items-center justify-between"
+  >
+    <h2
+      className="text-2xl text-black/70 font-semibold capitalize"
+    >
+      QR Code
+    </h2>
+    <div
+      className="flex flex-row gap-2 group"
+    >
+      <svg
+        className="text-2xl text-black/70 group-hover:cursor-pointer"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 512 512"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M255.66 112c-77.94 0-157.89 45.11-220.83 135.33a16 16 0 0 0-.27 17.77C82.92 340.8 161.8 400 255.66 400c92.84 0 173.34-59.38 221.79-135.25a16.14 16.14 0 0 0 0-17.47C428.89 172.28 347.8 112 255.66 112z"
+          fill="none"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="32"
+        />
+        <circle
+          cx="256"
+          cy="256"
+          fill="none"
+          r="80"
+          strokeMiterlimit="10"
+          strokeWidth="32"
+        />
+      </svg>
+      <svg
+        className="text-2xl text-black/70 group-hover:cursor-pointer"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 24 24"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M20 5.5a3.498 3.498 0 0 1-6.062 2.385l-5.112 3.021a3.498 3.498 0 0 1 0 2.188l5.112 3.021a3.5 3.5 0 1 1-.764 1.29l-5.112-3.02a3.499 3.499 0 1 1-3.843-5.642 3.499 3.499 0 0 1 3.843.872l5.112-3.021A3.5 3.5 0 1 1 20 5.5Zm-1.5 13a2 2 0 1 0-3.999-.001 2 2 0 0 0 3.999.001Zm0-13a2 2 0 1 0-3.999-.001A2 2 0 0 0 18.5 5.5ZM5.5 14a2 2 0 1 0 .001-3.999A2 2 0 0 0 5.5 14Z"
+        />
+      </svg>
+      <svg
+        className="text-2xl text-black/70 group-hover:cursor-pointer"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-42.34-61.66a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L120,164.69V120a8,8,0,0,1,16,0v44.69l10.34-10.35A8,8,0,0,1,157.66,154.34Z"
+        />
+      </svg>
+      <div
+        className=" relative inline-flex lg:hidden"
+      >
+        <input
+          className="peer appearance-none z-10 absolute top-0 left-0 text-center w-full h-full hover:cursor-pointer"
+          id="faq1"
+          onClick={[Function]}
+          type="checkbox"
+        />
+        <svg
+          className="text-2xl text-black/70 bg-orange-200 rounded-full bg-opacity-60 "
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          version="1.1"
+          viewBox="0 0 17 17"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <g />
+          <path
+            d="M12.146 6.146l0.707 0.707-4.353 4.354-4.354-4.353 0.707-0.707 3.647 3.646 3.646-3.647zM17 8.5c0 4.687-3.813 8.5-8.5 8.5s-8.5-3.813-8.5-8.5 3.813-8.5 8.5-8.5 8.5 3.813 8.5 8.5zM16 8.5c0-4.136-3.364-7.5-7.5-7.5s-7.5 3.364-7.5 7.5 3.364 7.5 7.5 7.5 7.5-3.364 7.5-7.5z"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>
+  <div
+    className="flex flex-col mt-4"
+  >
+    <div
+      className="flex flex-row items-center gap-3 bg-orange-200 bg-opacity-40 rounded-xl p-5"
+    >
+      <svg
+        className="text-3xl text-orange-400"
+        fill="currentColor"
+        height="1em"
+        stroke="currentColor"
+        strokeWidth="0"
+        style={
+          {
+            "color": undefined,
+          }
+        }
+        viewBox="0 0 256 256"
+        width="1em"
+        xmlns="http://www.w3.org/2000/svg"
+      >
+        <path
+          d="M213.66,82.34l-56-56A8,8,0,0,0,152,24H56A16,16,0,0,0,40,40V216a16,16,0,0,0,16,16H200a16,16,0,0,0,16-16V88A8,8,0,0,0,213.66,82.34ZM160,51.31,188.69,80H160ZM200,216H56V40h88V88a8,8,0,0,0,8,8h48V216Zm-42.34-61.66a8,8,0,0,1,0,11.32l-24,24a8,8,0,0,1-11.32,0l-24-24a8,8,0,0,1,11.32-11.32L120,164.69V120a8,8,0,0,1,16,0v44.69l10.34-10.35A8,8,0,0,1,157.66,154.34Z"
+        />
+      </svg>
+      <p
+        className="text-black/70 font-light text-xs"
+      >
+        Download the QR code or share it with your friends.
+      </p>
+    </div>
+    <div
+      className="w-full h-full mt-5 flex justify-center"
+    >
+      <img
+        alt="Profile image"
+        className="rounded-2xl w-96 h-80"
+        data-nimg="1"
+        decoding="async"
+        height={100}
+        loading="lazy"
+        onError={[Function]}
+        onLoad={[Function]}
+        src="qr.svg"
+        style={
+          {
+            "color": "transparent",
+          }
+        }
+        width={100}
+      />
+    </div>
+  </div>
+</div>
+`;

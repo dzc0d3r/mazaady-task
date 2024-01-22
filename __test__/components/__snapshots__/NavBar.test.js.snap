@@ -2,13 +2,13 @@
 
 exports[`Navar tests renders correctly 1`] = `
 <div
-  className="bg-white w-full"
+  className="w-full bg-white sticky top-0 z-50"
 >
   <div
-    className="container bg-white mx-auto max-w-7xl"
+    className="container mx-auto max-w-7xl bg-white"
   >
     <div
-      className=" relative justify-between bg-white md:items-center md:flex md:px-8 h-16"
+      className=" relative h-16 justify-between bg-white flex flex-row md:items-center md:px-8"
     >
       <div
         className=" md:flex md:flex-row md:items-center"
@@ -17,15 +17,15 @@ exports[`Navar tests renders correctly 1`] = `
           className=" flex items-center py-3 md:py-0 "
         >
           <div
-            className="md:hidden flex gap-x-4 items-center "
+            className="flex items-center gap-x-4 md:hidden "
           >
             <button
-              className="p-2 text-gray-500 rounded-md outline-none  mx-2"
+              className="mx-2 rounded-md p-2 text-gray-500  outline-none"
               onClick={[Function]}
             >
               <svg
                 aria-hidden="true"
-                className="text-3xl text-gray-300 p-0 m-0"
+                className="m-0 p-0 text-3xl text-gray-300"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -73,18 +73,15 @@ exports[`Navar tests renders correctly 1`] = `
           </a>
         </div>
         <div
-          className="md:block hidden"
+          className="md:block  hidden"
         >
           <ul
-            className="bg-white -mt-2 h-screen md:mt-0 md:h-auto space-y-2 md:space-y-0 md:space-x-10 items-center md:justify-center md:flex justify-start md:items-center flex-col flex md:flex-row pt-10 md:pt-0 capitalize"
+            className="-mt-2 flex h-screen flex-col items-center justify-start space-y-2 bg-white pt-10 capitalize md:mt-0 md:flex md:h-auto md:flex-row md:items-center md:justify-center  md:space-x-10 md:space-y-0 md:pt-0"
           >
             <li
-              className="block text-gray-500 text-lg text-center py-2 rounded-full w-48 mx-auto md:py-0 md:w-auto active
+              className="active mx-auto block w-48 rounded-full py-2 text-center text-lg text-gray-500 md:w-auto md:py-0
                                      "
             >
-              <div
-                className=""
-              />
               <a
                 href="/"
                 onClick={[Function]}
@@ -95,7 +92,7 @@ exports[`Navar tests renders correctly 1`] = `
               </a>
             </li>
             <li
-              className="block text-gray-500 text-lg text-center py-2 rounded-full w-48 mx-auto md:py-0 md:w-auto"
+              className="mx-auto block w-48 rounded-full py-2 text-center text-lg text-gray-500 md:w-auto md:py-0"
             >
               <a
                 href="/"
@@ -107,7 +104,7 @@ exports[`Navar tests renders correctly 1`] = `
               </a>
             </li>
             <li
-              className="block text-gray-500 text-lg text-center py-2 rounded-full w-48 mx-auto md:py-0 md:w-auto"
+              className="mx-auto block w-48 rounded-full py-2 text-center text-lg text-gray-500 md:w-auto md:py-0"
             >
               <a
                 href="/contact"
@@ -123,16 +120,16 @@ exports[`Navar tests renders correctly 1`] = `
       </div>
       <div>
         <div
-          className="hidden md:flex w-full h-full  "
+          className="h-full w-full flex group "
         >
           <div
-            className="flex items-center divide-x-2 divide-gray-100 mx-5 "
+            className="group-hover:cursor-pointer mx-5 flex items-center md:divide-x-2 md:divide-gray-100 "
           >
             <div
               className="p-2"
             >
               <svg
-                className="text-xl text-gray-700 rotate-[280deg] m-1"
+                className="m-1 rotate-[280deg] text-xl text-gray-700"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -159,7 +156,7 @@ exports[`Navar tests renders correctly 1`] = `
               className="p-2"
             >
               <svg
-                className="text-xl text-gray-700 m-1"
+                className="m-1 text-xl text-gray-700"
                 fill="currentColor"
                 height="1em"
                 stroke="currentColor"
@@ -179,11 +176,11 @@ exports[`Navar tests renders correctly 1`] = `
               </svg>
             </div>
             <div
-              className="w-full mx-auto px-3"
+              className="mx-auto w-full px-3"
             >
               <img
                 alt="Profile image"
-                className="rounded-full mx-auto w-11 h-11"
+                className="mx-auto h-11 w-11 rounded-full"
                 data-nimg="1"
                 decoding="async"
                 height={50}
@@ -201,7 +198,7 @@ exports[`Navar tests renders correctly 1`] = `
             </div>
           </div>
           <button
-            className="py-2 px-4 inline-flex flex-row items-center gap-x-2 text-base font-semibold rounded-xl border border-transparent bg-gradient-to-r from-primary  to-orange-600 hover:to-orange-500 text-white disabled:opacity-50 disabled:pointer-events-none"
+            className="hidden w-full lg:w-fit md:flex flex-row justify-center items-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 lg:px-4 lg:py-2 px-1 py-1 lg:text-base text-sm  font-semibold text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50"
           >
             <svg
               className="text-2xl"
@@ -241,10 +238,10 @@ exports[`Navar tests renders correctly 1`] = `
             Add New Product
           </button>
           <div
-            className="grid grid-cols-2 items-center space-x-1 divide-x-2 mx-5"
+            className="mx-5 hidden md:grid grid-cols-2 items-center lg:divide-x-2 "
           >
             <button
-              className="flex items-center justify-center  text-xl  w-20 mx-auto md:w-auto "
+              className="mx-auto flex w-20  items-center  justify-center text-xl md:w-auto px-1"
             >
               <svg
                 className="text-2xl"
@@ -267,7 +264,7 @@ exports[`Navar tests renders correctly 1`] = `
               </svg>
             </button>
             <div
-              className="text-end w-full"
+              className="px-1 w-full text-end lg:flex hidden"
             >
               EN
             </div>

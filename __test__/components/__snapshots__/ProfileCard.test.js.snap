@@ -1,0 +1,209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ProfileCard renders correctly 1`] = `
+<div
+  className="h-fit w-full bg-white rounded-2xl p-5 max-w-full md:max-w-none mx-auto"
+>
+  <div
+    className="flex flex-col"
+  >
+    <img
+      alt="Profile image"
+      className="rounded-2xl w-24 h-24"
+      data-nimg="1"
+      decoding="async"
+      height={100}
+      loading="lazy"
+      onError={[Function]}
+      onLoad={[Function]}
+      src="profile-card.svg"
+      style={
+        {
+          "color": "transparent",
+        }
+      }
+      width={100}
+    />
+  </div>
+  <div
+    className="mt-5"
+  >
+    <h2
+      className="text-2xl text-black/70 font-semibold"
+    >
+      Hala Ahmed
+    </h2>
+    <p
+      className="mt-2 text-black/70 font-light text-sm"
+    >
+      I am Hala Ahmed, I am the owner of the local brand called Beauty which is for Mackeup and Skin Care.
+    </p>
+  </div>
+  <div
+    className="flex flex-row gap-2 my-5"
+  >
+    <div
+      className="p-2 rounded-2xl bg-orange-400 bg-opacity-10 gap-1 flex w-full"
+    >
+      <div
+        className="flex items-center justify-center"
+      >
+        <svg
+          className="text-2xl md:text-3xl text-orange-400"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+            stroke="none"
+          />
+          <path
+            d="M8 7a4 4 0 1 0 8 0a4 4 0 0 0 -8 0"
+          />
+          <path
+            d="M6 21v-2a4 4 0 0 1 4 -4h4"
+          />
+          <path
+            d="M15 19l2 2l4 -4"
+          />
+        </svg>
+      </div>
+      <div
+        className="flex flex-col"
+      >
+        <p
+          className="text-sm md:text-base font-bold text-black/70"
+        >
+          10
+        </p>
+        <span
+          className="text-xs md:text-sm capitalize  text-orange-400"
+        >
+          following
+        </span>
+      </div>
+    </div>
+    <div
+      className="p-2 rounded-2xl bg-orange-400 bg-opacity-10 gap-1 flex w-full"
+    >
+      <div
+        className="flex items-center justify-center"
+      >
+        <svg
+          className="text-2xl md:text-3xl text-orange-400"
+          fill="none"
+          height="1em"
+          stroke="currentColor"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          strokeWidth="2"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M0 0h24v24H0z"
+            fill="none"
+            stroke="none"
+          />
+          <path
+            d="M9 7m-4 0a4 4 0 1 0 8 0a4 4 0 1 0 -8 0"
+          />
+          <path
+            d="M3 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2"
+          />
+          <path
+            d="M16 3.13a4 4 0 0 1 0 7.75"
+          />
+          <path
+            d="M21 21v-2a4 4 0 0 0 -3 -3.85"
+          />
+        </svg>
+      </div>
+      <div
+        className="flex flex-col"
+      >
+        <p
+          className="text-sm md:text-base font-bold text-black/70"
+        >
+          5
+        </p>
+        <span
+          className="text-xs md:text-sm capitalize  text-orange-400"
+        >
+          followers
+        </span>
+      </div>
+    </div>
+    <div
+      className="p-2 rounded-2xl bg-orange-400 bg-opacity-10 gap-1 flex w-full"
+    >
+      <div
+        className="flex items-center justify-center"
+      >
+        <svg
+          className="text-2xl md:text-3xl text-orange-400 font-semibold "
+          fill="currentColor"
+          height="1em"
+          stroke="currentColor"
+          strokeWidth="0"
+          style={
+            {
+              "color": undefined,
+            }
+          }
+          viewBox="0 0 24 24"
+          width="1em"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            d="M15.1986 9.94435C14.7649 9.53358 14.4859 8.98601 14.4085 8.39371L14.0056 5.31126L11.275 6.79711C10.7503 7.08262 10.1433 7.17876 9.55608 7.06936L6.49998 6.50003L7.06931 9.55612C7.17871 10.1434 7.08257 10.7503 6.79707 11.275L5.31121 14.0056L8.39367 14.4085C8.98596 14.4859 9.53353 14.7649 9.94431 15.1986L12.0821 17.4555L13.4178 14.6485C13.6745 14.1091 14.109 13.6745 14.6484 13.4179L17.4555 12.0821L15.1986 9.94435ZM15.2238 15.5078L13.0111 20.1579C12.8687 20.4572 12.5107 20.5843 12.2115 20.4419C12.1448 20.4102 12.0845 20.3664 12.0337 20.3127L8.49229 16.574C8.39749 16.4739 8.27113 16.4095 8.13445 16.3917L3.02816 15.7242C2.69958 15.6812 2.46804 15.3801 2.51099 15.0515C2.52056 14.9782 2.54359 14.9074 2.5789 14.8425L5.04031 10.3191C5.1062 10.198 5.12839 10.0579 5.10314 9.92241L4.16 4.85979C4.09931 4.53402 4.3142 4.22074 4.63997 4.16005C4.7126 4.14652 4.78711 4.14652 4.85974 4.16005L9.92237 5.10319C10.0579 5.12843 10.198 5.10625 10.319 5.04036L14.8424 2.57895C15.1335 2.42056 15.4979 2.52812 15.6562 2.81919C15.6916 2.88409 15.7146 2.95495 15.7241 3.02821L16.3916 8.13449C16.4095 8.27118 16.4739 8.39754 16.5739 8.49233L20.3127 12.0337C20.5533 12.2616 20.5636 12.6414 20.3357 12.8819C20.2849 12.9356 20.2246 12.9794 20.1579 13.0111L15.5078 15.2238C15.3833 15.2831 15.283 15.3833 15.2238 15.5078ZM16.0206 17.4349L17.4348 16.0207L21.6775 20.2633L20.2633 21.6775L16.0206 17.4349Z"
+          />
+        </svg>
+      </div>
+      <div
+        className="flex flex-col"
+      >
+        <p
+          className="text-sm md:text-base font-bold text-black/70"
+        >
+          4.2
+          <span
+            className="text-xs md:text-sm text-gray-600 font-light mx-2"
+          >
+            15
+          </span>
+        </p>
+        <span
+          className="text-xs md:text-sm capitalize  text-orange-400"
+        >
+          rate
+        </span>
+      </div>
+    </div>
+  </div>
+  <button
+    className="w-full text-center justify-center mt-5 flex flex-row items-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 px-4 py-2 text-lg   text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50"
+  >
+    Follow
+  </button>
+</div>
+`;
