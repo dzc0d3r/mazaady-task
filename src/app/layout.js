@@ -3,6 +3,8 @@ import "./globals.css"
 import { NavBar } from "@/components/Navbar"
 import { Footer } from "@/components/Footer"
 
+import { QueryProvider } from "@/lib/providers"
+
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
@@ -13,9 +15,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={`${inter.className} relative`}>
         <NavBar />
-        {children}
+        <QueryProvider>{children}</QueryProvider>
         <Footer />
       </body>
     </html>
