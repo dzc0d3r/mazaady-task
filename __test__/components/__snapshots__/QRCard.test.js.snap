@@ -2,18 +2,18 @@
 
 exports[`QRCard Component renders QRCard component correctly 1`] = `
 <div
-  className="h-fit w-full bg-white rounded-2xl p-5 flex flex-col max-w-full md:max-w-none mx-auto"
+  className="mx-auto flex h-fit w-full max-w-full flex-col rounded-2xl bg-white p-5 md:max-w-none"
 >
   <div
     className="flex flex-row items-center justify-between"
   >
     <h2
-      className="text-2xl text-black/70 font-semibold capitalize"
+      className="text-2xl font-semibold capitalize text-black/70"
     >
       QR Code
     </h2>
     <div
-      className="flex flex-row gap-2 group"
+      className="group flex flex-row gap-2"
     >
       <svg
         className="text-2xl text-black/70 group-hover:cursor-pointer"
@@ -88,13 +88,13 @@ exports[`QRCard Component renders QRCard component correctly 1`] = `
         className=" relative inline-flex lg:hidden"
       >
         <input
-          className="peer appearance-none z-10 absolute top-0 left-0 text-center w-full h-full hover:cursor-pointer"
+          className="peer absolute left-0 top-0 z-10 h-full w-full appearance-none text-center hover:cursor-pointer"
           id="faq1"
           onClick={[Function]}
           type="checkbox"
         />
         <svg
-          className="text-2xl text-black/70 bg-orange-200 rounded-full bg-opacity-60 "
+          className="rounded-full bg-orange-200 bg-opacity-60 text-2xl text-black/70 "
           fill="currentColor"
           height="1em"
           stroke="currentColor"
@@ -118,10 +118,10 @@ exports[`QRCard Component renders QRCard component correctly 1`] = `
     </div>
   </div>
   <div
-    className="flex flex-col mt-4"
+    className="mt-4 flex flex-col"
   >
     <div
-      className="flex flex-row items-center gap-3 bg-orange-200 bg-opacity-40 rounded-xl p-5"
+      className="flex flex-row items-center gap-3 rounded-xl bg-orange-200 bg-opacity-40 p-5"
     >
       <svg
         className="text-3xl text-orange-400"
@@ -143,17 +143,17 @@ exports[`QRCard Component renders QRCard component correctly 1`] = `
         />
       </svg>
       <p
-        className="text-black/70 font-light text-xs"
+        className="text-xs font-light text-black/70"
       >
         Download the QR code or share it with your friends.
       </p>
     </div>
     <div
-      className="w-full h-full mt-5 flex justify-center"
+      className="mt-5 flex h-full w-full justify-center"
     >
       <img
         alt="Profile image"
-        className="rounded-2xl w-96 h-80"
+        className="h-80 w-96 rounded-2xl"
         data-nimg="1"
         decoding="async"
         height={100}

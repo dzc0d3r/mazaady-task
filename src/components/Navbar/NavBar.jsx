@@ -98,10 +98,12 @@ const NavBar = () => {
                 {/* Add Porduct button */}
               </div>
 
-              <button className="hidden w-full flex-row items-center justify-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 px-1 py-1 text-sm font-semibold text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50  md:flex lg:w-fit lg:px-4 lg:py-2 lg:text-base">
-                <FiPlusCircle className="text-2xl" />
-                Add New Product
-              </button>
+              <Link href="/add-product">
+                <button className="hidden w-full flex-row items-center justify-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 px-1 py-1 text-sm font-semibold text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50  md:flex lg:w-fit lg:px-4 lg:py-2 lg:text-base">
+                  <FiPlusCircle className="text-2xl" />
+                  Add New Product
+                </button>
+              </Link>
               <div className="mx-5 hidden grid-cols-2 items-center md:grid lg:divide-x-2 ">
                 <button className="mx-auto flex w-20  items-center  justify-center px-1 text-xl md:w-auto">
                   <PiGlobe className="text-2xl" />

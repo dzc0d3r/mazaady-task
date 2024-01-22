@@ -2,13 +2,13 @@
 
 exports[`Navar tests renders correctly 1`] = `
 <div
-  className="w-full bg-white sticky top-0 z-50"
+  className="sticky top-0 z-50 w-full bg-white"
 >
   <div
     className="container mx-auto max-w-7xl bg-white"
   >
     <div
-      className=" relative h-16 justify-between bg-white flex flex-row md:items-center md:px-8"
+      className=" relative flex h-16 flex-row justify-between bg-white md:items-center md:px-8"
     >
       <div
         className=" md:flex md:flex-row md:items-center"
@@ -73,7 +73,7 @@ exports[`Navar tests renders correctly 1`] = `
           </a>
         </div>
         <div
-          className="md:block  hidden"
+          className="md:flex hidden"
         >
           <ul
             className="-mt-2 flex h-screen flex-col items-center justify-start space-y-2 bg-white pt-10 capitalize md:mt-0 md:flex md:h-auto md:flex-row md:items-center md:justify-center  md:space-x-10 md:space-y-0 md:pt-0"
@@ -120,10 +120,10 @@ exports[`Navar tests renders correctly 1`] = `
       </div>
       <div>
         <div
-          className="h-full w-full flex group "
+          className="group flex h-full w-full "
         >
           <div
-            className="group-hover:cursor-pointer mx-5 flex items-center md:divide-x-2 md:divide-gray-100 "
+            className="mx-5 flex items-center group-hover:cursor-pointer md:divide-x-2 md:divide-gray-100 "
           >
             <div
               className="p-2"
@@ -197,51 +197,58 @@ exports[`Navar tests renders correctly 1`] = `
               />
             </div>
           </div>
-          <button
-            className="hidden w-full lg:w-fit md:flex flex-row justify-center items-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 lg:px-4 lg:py-2 px-1 py-1 lg:text-base text-sm  font-semibold text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50"
-          >
-            <svg
-              className="text-2xl"
-              fill="none"
-              height="1em"
-              stroke="currentColor"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              strokeWidth="2"
-              style={
-                {
-                  "color": undefined,
-                }
-              }
-              viewBox="0 0 24 24"
-              width="1em"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <circle
-                cx="12"
-                cy="12"
-                r="10"
-              />
-              <line
-                x1="12"
-                x2="12"
-                y1="8"
-                y2="16"
-              />
-              <line
-                x1="8"
-                x2="16"
-                y1="12"
-                y2="12"
-              />
-            </svg>
-            Add New Product
-          </button>
-          <div
-            className="mx-5 hidden md:grid grid-cols-2 items-center lg:divide-x-2 "
+          <a
+            href="/add-product"
+            onClick={[Function]}
+            onMouseEnter={[Function]}
+            onTouchStart={[Function]}
           >
             <button
-              className="mx-auto flex w-20  items-center  justify-center text-xl md:w-auto px-1"
+              className="hidden w-full flex-row items-center justify-center gap-x-2 rounded-xl bg-gradient-to-r from-primary to-orange-600 px-1 py-1 text-sm font-semibold text-white hover:to-orange-500 disabled:pointer-events-none disabled:opacity-50  md:flex lg:w-fit lg:px-4 lg:py-2 lg:text-base"
+            >
+              <svg
+                className="text-2xl"
+                fill="none"
+                height="1em"
+                stroke="currentColor"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                strokeWidth="2"
+                style={
+                  {
+                    "color": undefined,
+                  }
+                }
+                viewBox="0 0 24 24"
+                width="1em"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle
+                  cx="12"
+                  cy="12"
+                  r="10"
+                />
+                <line
+                  x1="12"
+                  x2="12"
+                  y1="8"
+                  y2="16"
+                />
+                <line
+                  x1="8"
+                  x2="16"
+                  y1="12"
+                  y2="12"
+                />
+              </svg>
+              Add New Product
+            </button>
+          </a>
+          <div
+            className="mx-5 hidden grid-cols-2 items-center md:grid lg:divide-x-2 "
+          >
+            <button
+              className="mx-auto flex w-20  items-center  justify-center px-1 text-xl md:w-auto"
             >
               <svg
                 className="text-2xl"
@@ -264,7 +271,7 @@ exports[`Navar tests renders correctly 1`] = `
               </svg>
             </button>
             <div
-              className="px-1 w-full text-end lg:flex hidden"
+              className="hidden w-full px-1 text-end lg:flex"
             >
               EN
             </div>
