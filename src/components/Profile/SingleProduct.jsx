@@ -15,7 +15,7 @@ const SingleProduct = ({ products }) => {
               className="absolute cursor-pointer rounded-2xl transition-all duration-300 group-hover:scale-[1.01] "
             ></Image>
             <div
-              className={`-botton-px absolute right-0 flex md:-right-px md:bottom-[.55rem]  
+              className={`absolute bottom-[.3rem] right-0 flex md:-right-px md:bottom-[.55rem]  
                             ${product.tag.includes("live") ? "bg-primary" : "bg-orange-500"} h-fit w-fit rounded-ee-full rounded-ss-full px-2 py-[2px] text-[.6rem]  font-light capitalize text-white md:px-6 md:py-2 lg:text-sm`}
             >
               <p>{product.tag}</p>
